@@ -1,0 +1,249 @@
+.conteiner2 {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.conteiner2 .navbar {
+  display: flex;
+  padding: 10px;
+}
+.conteiner2 .navbar .navbar__logo {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+.conteiner2 .navbar .navbar__logo p {
+  font-weight: bold;
+  font-size: 15px;
+}
+.conteiner2 .navbar .navbar__menu {
+  width: 70%;
+}
+.conteiner2 .navbar .navbar__menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.conteiner2 .navbar .navbar__menu a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #8B8C8C;
+  font-size: 12px;
+}
+
+.my-class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f9ff;
+  width: 100%;
+  height: 500px;
+}
+.my-class .div h1 {
+  font-weight: bold;
+}
+.my-class .div p {
+  font-family: sans-serif;
+}
+.my-class .div button#btn {
+  font-size: 18px;
+  border: none;
+  color: white;
+  background-color: #ffc558;
+  padding: 10px 40px;
+}
+.my-class .div button#btn2 {
+  font-size: 18px;
+  border: none;
+  color: white;
+  background-color: #8cc3ff;
+  padding: 10px 40px;
+}
+.my-class .div button#btn:hover {
+  background-color: white;
+  color: #ffc558;
+  border: 1px solid #ffc558;
+}
+.my-class .div button#btn2:hover {
+  background-color: white;
+  color: #8cc3ff;
+  border: 1px solid #8cc3ff;
+}
+
+.my-class2 {
+  text-align: center;
+}
+.my-class2 h1 {
+  font-weight: bold;
+}
+
+.card2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.card2 .card__content {
+  background-color: #f4f9ff;
+  width: 360px;
+  padding: 25px 40px;
+}
+.card2 .card__content2 {
+  background-color: #f4f9ff;
+  width: 360px;
+  padding: 25px 40px;
+}
+.card2 .card__content3 {
+  background-color: #f4f9ff;
+  width: 330px;
+  padding: 25px 40px;
+}
+
+.card3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.card3 .card__content4 {
+  background-color: #f4f9ff;
+  width: 390px;
+  padding: 25px 10px;
+}
+.card3 .card__content5 {
+  background-color: #f4f9ff;
+  width: 360px;
+  padding: 25px 40px;
+}
+.card3 .card__content6 {
+  background-color: #f4f9ff;
+  width: 330px;
+  padding: 25px 40px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f9ff;
+  height: 500px;
+  gap: 30px;
+}
+.banner .banner__content h1 {
+  font-weight: bold;
+}
+.banner .banner__content p {
+  font-family: sans-serif;
+}
+.banner .banner__content button#btn2 {
+  font-size: 18px;
+  border: none;
+  color: white;
+  background-color: #8cc3ff;
+  padding: 10px 40px;
+}
+.banner .banner__content button#btn2:hover {
+  background-color: white;
+  color: #8cc3ff;
+  border: 1px solid #8cc3ff;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.card4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.btn2 {
+  font-size: 18px;
+  border: none;
+  color: white;
+  background-color: #8cc3ff;
+  padding: 10px 40px;
+}
+
+.btn2:hover {
+  background-color: white;
+  color: #8cc3ff;
+  border: 1px solid #8cc3ff;
+}
+
+.sircle-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.sircle-img .sircle-img__content {
+  background-color: #8cc3ff;
+  border: 20px solid #8cc3ff;
+  border-radius: 50%;
+}
+.sircle-img .sircle-img__content img {
+  border-radius: 50%;
+}
+.sircle-img .sircle-img__text p {
+  font-family: sans-serif;
+}
+.sircle-img .sircle-img__text p#p1 {
+  color: #8cc3ff;
+  font-size: 25px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  background-color: #f4f9ff;
+  height: 600px;
+}
+
+a#a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  padding: 20px;
+}
+.footer .footer__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+.footer .footer__text a {
+  font-size: 18px;
+}
+.footer .footer__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+.footer .footer__menu h3 {
+  color: white;
+}
+.footer .footer__menu button#btn2 {
+  font-size: 18px;
+  border: none;
+  color: white;
+  background-color: #8cc3ff;
+  padding: 10px 40px;
+}
+.footer .footer__menu button#btn2:hover {
+  background-color: black;
+  color: #8cc3ff;
+  border: 1px solid #8cc3ff;
+}/*# sourceMappingURL=main.css.map */
